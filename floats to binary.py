@@ -7,6 +7,9 @@ while ((2**p)*num)%1 != 0:
 
 num2 = int((2**p)*num)
 
+if num2 == 0:
+    binary = '0'
+    
 while num2 > 0:
     binary = str(num2%2) + binary
     num2 = num2//2
