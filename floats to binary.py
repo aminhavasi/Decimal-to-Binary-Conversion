@@ -14,8 +14,6 @@ while num2 > 0:
     binary = str(num2%2) + binary
     num2 = num2//2
 
-print(binary)
-
 for i in range (p - len(binary)):
     binary = '0' + binary
 
